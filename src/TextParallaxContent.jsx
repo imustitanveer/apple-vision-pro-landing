@@ -15,7 +15,7 @@ export const TextParallaxContentExample = () => {
                 <h1 className="text-6xl font-semibold">Vision Pro</h1>
                 </div>
                 <img src="https://www.apple.com/v/apple-vision-pro/f/images/overview/intro/hardware_base__ecl2v43j73o2_small_2x.jpg" alt="vision-pro" className="mb-30"/>
-                <button className="w-full rounded-full bg-white px-9 py-4 text-xl text-black border-3 font-semibold border-black transition-colors hover:bg-black hover:text-white hover:cursor-pointer md:w-fit flex items-center gap-2 duration-300">
+                <button className="md:w-full rounded-full bg-white px-9 py-4 text-xl text-black border-3 font-semibold border-black transition-colors hover:bg-black hover:text-white hover:cursor-pointer md:w-fit flex items-center gap-2 duration-300">
                     <FiPlus className="inline" /> Take a closer look
                 </button>
             </div>

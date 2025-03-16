@@ -18,7 +18,7 @@ function App() {
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 mb-10 flex flex-col items-center">
         <div className="flex flex-row items-center space-x-4 p-4 rounded-lg">
           {/* Apple Logo */}
-          <svg className="text-black w-12 h-12" viewBox="-1.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor">
+          <svg className="text-black w-10 h-10 md:w-12 md:h-12" viewBox="-1.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor">
             <g id="SVGRepo_iconCarrier">
               <title>apple [#173]</title>
               <desc>Created with Sketch.</desc>
@@ -34,10 +34,10 @@ function App() {
           </svg>
 
           {/* Text */}
-          <h1 className="text-6xl font-semibold text-black">Vision Pro</h1>
+          <h1 className="text-3xl md:text-6xl font-semibold text-black">Vision Pro</h1>
         </div>
-        <a href="https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=e48e92b8e87335f23bb1750ece469d3bbbe1ab73117d9ec66246b5f5a02dcf2c&language=US-EN&rv=1&path=%2Fretail%2Finstore-shopping-session%2Fsession-selection%2F%3Ftopic%3Dvisionpro%26resToken%3D5f1a54e6-ef5f-b372-2801-4318b2b1a256" target='_blank' className='flex items-center gap-2 text-xl md:text-2xl font-semibold text-orange-500 group'><p className='text-orange-500 text-xl font-semibold group-hover:cursor-pointer group-hover:underline md:text-2xl'>Book a demo</p>&gt;</a>
-        <a href="https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=e48e92b8e87335f23bb1750ece469d3bbbe1ab73117d9ec66246b5f5a02dcf2c&language=US-EN&rv=1&path=%2Fretail%2Finstore-shopping-session%2Fsession-selection%2F%3Ftopic%3Dvisionpro%26resToken%3D5f1a54e6-ef5f-b372-2801-4318b2b1a256" target='_blank' className='flex items-center gap-2 text-xl md:text-2xl font-semibold text-orange-500 group'><p className='text-orange-500 text-lg font-semibold group-hover:cursor-pointer group-hover:underline md:text-2xl'>Learn more about visionOS 2</p>&gt;</a>
+        <a href="https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=e48e92b8e87335f23bb1750ece469d3bbbe1ab73117d9ec66246b5f5a02dcf2c&language=US-EN&rv=1&path=%2Fretail%2Finstore-shopping-session%2Fsession-selection%2F%3Ftopic%3Dvisionpro%26resToken%3D5f1a54e6-ef5f-b372-2801-4318b2b1a256" target='_blank' className='flex items-center gap-2 text-md md:text-2xl font-semibold text-orange-500 group'><p className='text-orange-500 text-md font-semibold group-hover:cursor-pointer group-hover:underline md:text-2xl'>Book a demo</p>&gt;</a>
+        <a href="https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=e48e92b8e87335f23bb1750ece469d3bbbe1ab73117d9ec66246b5f5a02dcf2c&language=US-EN&rv=1&path=%2Fretail%2Finstore-shopping-session%2Fsession-selection%2F%3Ftopic%3Dvisionpro%26resToken%3D5f1a54e6-ef5f-b372-2801-4318b2b1a256" target='_blank' className='flex items-center gap-2 text-md md:text-2xl font-semibold text-orange-500 group'><p className='text-orange-500 text-md font-semibold group-hover:cursor-pointer group-hover:underline md:text-2xl'>Learn more about visionOS 2</p>&gt;</a>
       </div>
     </div>
     <TextParallaxContentExample />
